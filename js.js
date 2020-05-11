@@ -19,12 +19,12 @@ class item {
         itemBox.classList.add('item');
 
         let editButton = document.createElement('button');
-        editButton.innerHTML = 'Edit';
+        editButton.innerHTML = '<i class="fas fa-pencil-alt"></i>';
         // wprowadzisc autofokus na input
         editButton.classList.add('editButton');
 
         let removeButton = document.createElement('button');
-        removeButton.innerHTML = 'Remove';
+        removeButton.innerHTML = '<i class="fas fa-trash"></i>';
         removeButton.classList.add('removeButton');
 
         container.appendChild(itemBox);
